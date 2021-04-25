@@ -36,11 +36,11 @@ public class GetLatLong {
 		try {
 			
 			String ip=getIP.getIP();
-			System.out.println("Public IP Address: "+ip);
+			System.out.println("Public IP Address is: "+ip);
 			
 			if(ip==null)
 			{
-				String[] args= {"Chech Your Internet Connection"};
+				String[] args= {"Chech Your Internet Connection Now"};
 				ErrorClass.main(args);
 			}
 		
