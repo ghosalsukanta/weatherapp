@@ -36,7 +36,7 @@ public class GetLatLong {
 		try {
 			
 			String ip=getIP.getIP();
-			System.out.println("Public IP Address: "+ip);
+			System.out.println("Public IP Address is: "+ip);
 			
 			if(ip==null)
 			{
