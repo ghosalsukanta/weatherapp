@@ -40,7 +40,7 @@ public class GetLatLong {
 			
 			if(ip==null)
 			{
-				String[] args= {"Chech Your Internet Connection"};
+				String[] args= {"Chech Your Internet Connection Now"};
 				ErrorClass.main(args);
 			}
 		
